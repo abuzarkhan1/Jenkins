@@ -2,7 +2,7 @@ pipline {
     agent any
     
     stages {
-        stage("hello") {
+        stage("dev") {
             steps {
                 echo "Hello World"
             }
